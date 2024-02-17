@@ -16,4 +16,4 @@ https://github.com/JeremiahRanen7/Todo-List
 
 ## Video (Detailed View):
 
-
+https://github.com/JeremiahRanen7/webstorage-todo/assets/141173239/f1a391f9-af33-4953-914d-3f1174adb2aa
