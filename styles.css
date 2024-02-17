@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Lobster+Two&family=Montserrat&family=Mooli&family=Outfit&family=Poppins&family=Prompt&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,600&family=Rosario:ital@1&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#1488cc, #2b32b2);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.note{
+    width: 50%;
+    min-width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 40px auto;
+    gap: 15px;
+}
+
+.note input{
+    flex: 1;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.note button{
+    flex-shrink: 0;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#list-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.note-box {
+    width: calc(30% - 10px);
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.note-box button {
+    background-color: #D2042D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
