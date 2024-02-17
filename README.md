@@ -14,3 +14,6 @@ https://github.com/JeremiahRanen7/Todo-List
 
 ```
 
+## Video (Detailed View):
+
+
